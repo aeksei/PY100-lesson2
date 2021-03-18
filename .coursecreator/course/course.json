@@ -1,0 +1,1149 @@
+{
+  "environment" : "unittest",
+  "summary" : "Python course.\nCreated: Mar 13, 2021, 5:33:22 PM.",
+  "title" : "PY100-lesson2",
+  "authors" : [
+    "aeksei"
+  ],
+  "programming_language" : "Python",
+  "language" : "en",
+  "course_type" : "PyCharm",
+  "items" : [
+    {
+      "title" : "lesson1_Условные_операторы",
+      "task_list" : [
+        {
+          "name" : "task1",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "print(\"5 больше 10?\", 5 > 10)\nprint(\"5 равно 10?\", 5 == 10)\nprint(\"5 неравно 5\", 5 != 5)\n\nprint()\n\nprint(\"5 меньше или равно 10?\", 5 <= 10)\nprint(\"5 меньше или равно 5?\", 5 <= 5)\nprint(\"5 равно 5?\", 5 == 5)\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Булевы переменные - `bool`\n\nВсего два значения `True` и `False`\n\nОператоры сравнения:\n- `<` **Меньше**. Условие верно, если первый операнд меньше второго.\n- `>` **Больше**. Условие верно, если первый операнд больше второго.\n- `<=` **Меньше или равно**.Условие верно, если первый операнд меньше либо равен второму.\n- `>=` **Больше или равно**. Условие верно, если первый операнд больше  либо равен второму.\n- `==` **Равенство**. Условие верно, если два операнда равны.\n- `!=` **Неравенство**. Условие верно, если два операнда неравны.\n\n\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "name" : "task2",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 9,
+                  "length" : 3,
+                  "possible_answer" : "<",
+                  "placeholder_text" : "..."
+                },
+                {
+                  "offset" : 16,
+                  "length" : 69,
+                  "possible_answer" : "  # TODO",
+                  "placeholder_text" : "# TODO Вставьте любой оператор сравнения, чтобы выжение было истинным"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "print(20 ... 30)# TODO Вставьте любой оператор сравнения, чтобы выжение было истинным\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "True\n"
+            }
+          },
+          "description_text" : "Вместо многоточия (...) вставьте любой оператор сравнения, чтобы в результате сравнения получилась истина `True`.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        },
+        {
+          "name" : "task3",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 12,
+                  "length" : 41,
+                  "possible_answer" : "20 != 100",
+                  "placeholder_text" : "...  # TODO Запишите логическое выражение"
+                },
+                {
+                  "offset" : 61,
+                  "length" : 3,
+                  "possible_answer" : "condition",
+                  "placeholder_text" : "..."
+                }
+              ],
+              "is_visible" : true,
+              "text" : "condition = ...  # TODO Запишите логическое выражение\n\nprint(...)\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "True\n"
+            }
+          },
+          "description_text" : "Запишите логическое выражение \"20 неравно 100\".\n\nРаспечатайте его результат.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        },
+        {
+          "name" : "task4",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 12,
+                  "length" : 41,
+                  "possible_answer" : "20 <= 11",
+                  "placeholder_text" : "...  # TODO запишите логическое выражение"
+                },
+                {
+                  "offset" : 61,
+                  "length" : 3,
+                  "possible_answer" : "condition",
+                  "placeholder_text" : "..."
+                }
+              ],
+              "is_visible" : true,
+              "text" : "condition = ...  # TODO запишите логическое выражение\n\nprint(...)\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "False\n"
+            }
+          },
+          "description_text" : "Запишите логическое выражение \"20 не больше 11\".\n\nРаспечатайте его результат.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "title" : "lesson2_Логические_операторы",
+      "task_list" : [
+        {
+          "name" : "task1",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "if __name__ == \"__main__\":\n    # Write your solution here\n    pass\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "\nЛогические операторы\nnot - Логическое НЕ. Возвращает противоположное значение\nor - Логическое ИЛИ. Возвращает True, если хотя бы одна из переменных True\nand Логическое И\nВозвращает True, если обе переменные True\nin, not in\nПроверка принадлежности\nВозвращает True, если проверяемая переменная содержится / не содержится в последовательности (списке, кортеже, строке ...)\nis, is not\nПроверка тождественности\nВозвращает True, если проверяемые объекты эквивалентны / не эквиваленты. То есть переменные ссылаются на один и тот же адрес в памяти компьютера.\n\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "name" : "task2",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 11,
+                  "length" : 3,
+                  "possible_answer" : "or",
+                  "placeholder_text" : "..."
+                }
+              ],
+              "is_visible" : true,
+              "text" : "print(True ... False)  # True\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "True\n"
+            }
+          },
+          "description_text" : "Выберите нужный логический оператор `and` или `or`, чтобы итогое выражение было верным.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        },
+        {
+          "name" : "task3",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 11,
+                  "length" : 3,
+                  "possible_answer" : "and",
+                  "placeholder_text" : "..."
+                }
+              ],
+              "is_visible" : true,
+              "text" : "print(True ... False)  # False\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "False\n"
+            }
+          },
+          "description_text" : "Выберите нужный логический оператор `and` или `or`, чтобы итогое выражение было ложным.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        },
+        {
+          "choiceOptions" : [
+            {
+              "text" : "true",
+              "status" : "CORRECT"
+            },
+            {
+              "text" : "false",
+              "status" : "INCORRECT"
+            }
+          ],
+          "isMultipleChoice" : false,
+          "name" : "task4",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "В речи иногда можно услышать оправдание: “не-не-не, это не правда”. \n\nС помощью логических операторов в Python это высказывание можно записать так:\n```python\nnot not True\n```\n\nЧему будет равно значение такого логического выражения?\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "choice"
+        },
+        {
+          "choiceOptions" : [
+            {
+              "text" : "true",
+              "status" : "INCORRECT"
+            },
+            {
+              "text" : "false",
+              "status" : "CORRECT"
+            }
+          ],
+          "isMultipleChoice" : false,
+          "name" : "task5",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Чему равно значение выражения?\n\n```python\nnot True or (True and not True)\n```\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "choice"
+        },
+        {
+          "choiceOptions" : [
+            {
+              "text" : "true",
+              "status" : "CORRECT"
+            },
+            {
+              "text" : "false",
+              "status" : "INCORRECT"
+            }
+          ],
+          "isMultipleChoice" : false,
+          "name" : "task6",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "if __name__ == \"__main__\":\n    # Write your solution here\n    pass\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Чему равно значение выражения?\n\n```python\nnot False and True or False and not True\n```\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "choice"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "title" : "lesson3_Условные_конструкции",
+      "task_list" : [
+        {
+          "name" : "task1",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "if __name__ == \"__main__\":\n    # Write your solution here\n    pass\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "\nThis is a task description file.\nIts content will be displayed to a learner\nin the **Task Description** window.\n\nIt supports both Markdown and HTML.\nTo toggle the format, you can rename **task.md**\nto **task.html**, or vice versa.\nThe default task description format can be changed\nin **Preferences | Tools | Education**,\nbut this will not affect any existing task description files.\n\nThe following features are available in\n**task.md/task.html** which are specific to the EduTools plugin:\n\n- Hints can be added anywhere in the task text.\nType \"hint\" and press Tab.\nHints should be added to an empty line in the task text.\nIn hints you can use HTML only.\n<div class=\"hint\">Text of your hint</div>\n\n- You may need to refer your learners to a particular lesson,\ntask, or file. To achieve this, you can use the in-course links.\nSpecify the path using the `[link_text](course://lesson1/task1/file1)` format.\n\n- You can insert shortcuts in the task description.\nWhile **task.html/task.md** is open, right-click anywhere\non the **Editor** tab and choose the **Insert shortcut** option\nfrom the context menu.\nFor example: &shortcut:FileStructurePopup;.\n\n- Insert the &percnt;`IDE_NAME`&percnt; macro,\nwhich will be replaced by the actual IDE name.\nFor example, **%IDE_NAME%**.\n\n- Insert PSI elements, by using links like\n`<a href=\"psi_element://link.to.element\">element description</a>`.\nTo get such a link, right-click the class or method\nand select **Copy Reference**.\nThen press &shortcut:EditorPaste; to insert the link where appropriate.\nFor example, a <a href=\"psi_element://java.lang.String#contains\">link to the \"contains\" method</a>.",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "choiceOptions" : [
+            {
+              "text" : "5",
+              "status" : "INCORRECT"
+            },
+            {
+              "text" : "-5",
+              "status" : "INCORRECT"
+            },
+            {
+              "text" : "15",
+              "status" : "CORRECT"
+            }
+          ],
+          "isMultipleChoice" : false,
+          "name" : "task2",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "s = 5\na = 10\nif a > 0:\n    s += a\nelse:\n    s -= a\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Чему будет равна переменная `s` в результате выполнения данного кода?\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "choice"
+        },
+        {
+          "name" : "task3",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "if __name__ == \"__main__\":\n    # Write your solution here\n    pass\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "\nThis is a task description file.\nIts content will be displayed to a learner\nin the **Task Description** window.\n\nIt supports both Markdown and HTML.\nTo toggle the format, you can rename **task.md**\nto **task.html**, or vice versa.\nThe default task description format can be changed\nin **Preferences | Tools | Education**,\nbut this will not affect any existing task description files.\n\nThe following features are available in\n**task.md/task.html** which are specific to the EduTools plugin:\n\n- Hints can be added anywhere in the task text.\nType \"hint\" and press Tab.\nHints should be added to an empty line in the task text.\nIn hints you can use HTML only.\n<div class=\"hint\">Text of your hint</div>\n\n- You may need to refer your learners to a particular lesson,\ntask, or file. To achieve this, you can use the in-course links.\nSpecify the path using the `[link_text](course://lesson1/task1/file1)` format.\n\n- You can insert shortcuts in the task description.\nWhile **task.html/task.md** is open, right-click anywhere\non the **Editor** tab and choose the **Insert shortcut** option\nfrom the context menu.\nFor example: &shortcut:FileStructurePopup;.\n\n- Insert the &percnt;`IDE_NAME`&percnt; macro,\nwhich will be replaced by the actual IDE name.\nFor example, **%IDE_NAME%**.\n\n- Insert PSI elements, by using links like\n`<a href=\"psi_element://link.to.element\">element description</a>`.\nTo get such a link, right-click the class or method\nand select **Copy Reference**.\nThen press &shortcut:EditorPaste; to insert the link where appropriate.\nFor example, a <a href=\"psi_element://java.lang.String#contains\">link to the \"contains\" method</a>.",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        },
+        {
+          "name" : "task4",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 16,
+                  "length" : 54,
+                  "possible_answer" : "number % 2 == 0 or number % 3 == 0:",
+                  "placeholder_text" : "...:  # TODO Заменить многоточие необходиммым условием"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "number = 12\n\nif ...:  # TODO Заменить многоточие необходиммым условием\n    print('Число number кратно 2 или 3')\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "'Число number кратно 2 или 3'\n"
+            }
+          },
+          "description_text" : "Записать условие проверки целого числа `number`, является ли оно кратным двум или трем.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        },
+        {
+          "name" : "task5",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 16,
+                  "length" : 66,
+                  "possible_answer" : "A % 2 == 1 and B % 2 == 1:",
+                  "placeholder_text" : "...:  # ToDo напишите сюда условие проверки нечетности чисел А и B"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "A = 5\nB = 7\n\nif ...:  # ToDo напишите сюда условие проверки нечетности чисел А и B\n    print('Числа А и B нечетные')\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "'Числа А и B нечетные'\n"
+            }
+          },
+          "description_text" : "Записать условие проверки, которое является истинным, когда каждое из чисел А и В нечетное.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        },
+        {
+          "name" : "task6",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 14,
+                  "length" : 43,
+                  "possible_answer" : "6 <= hour < 12:",
+                  "placeholder_text" : "...:  # ToDo условие проверки времени суток"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "hour = 10\n\nif ...:  # ToDo условие проверки времени суток\n    print(\"Утро!!!\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "\"Утро!!!\"\n"
+            }
+          },
+          "description_text" : "Написать программу для определения, является ли  данное время суток утром и вывести соответствующее сообщение сообщение. \n\nУтром считается временной промежуток с 6 включительно и  до 12 часов не включительно.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        },
+        {
+          "name" : "task7",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 8,
+                  "length" : 82,
+                  "possible_answer" : "int(input())",
+                  "placeholder_text" : "...  # TODO запросить месяц у пользователя. Номер месяца - целочисленное значение!"
+                },
+                {
+                  "offset" : 105,
+                  "length" : 3,
+                  "possible_answer" : "3, 4, 5",
+                  "placeholder_text" : "..."
+                },
+                {
+                  "offset" : 145,
+                  "length" : 3,
+                  "possible_answer" : "6, 7, 8",
+                  "placeholder_text" : "..."
+                },
+                {
+                  "offset" : 184,
+                  "length" : 3,
+                  "possible_answer" : "9, 10, 11",
+                  "placeholder_text" : "..."
+                },
+                {
+                  "offset" : 224,
+                  "length" : 3,
+                  "possible_answer" : "12, 1, 2",
+                  "placeholder_text" : "..."
+                }
+              ],
+              "is_visible" : true,
+              "text" : "mount = ...  # TODO запросить месяц у пользователя. Номер месяца - целочисленное значение!\n\nif mount in [...]:\n    print(\"Весна\")\nelif mount in [...]:\n    print(\"Лето\")\nelif mount in [...]:\n    print(\"Осень\")\nelif mount in [...]:\n    print(\"Зима\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Ввести с клавиатуры номер месяца. Определить сезон в зависимости от номера месяца и вывести сообщение:\n- “Весна” для  3, 4, 5 месяца;\n- “Лето” для 6, 7, 8  месяца;\n- “Осень” для 9, 10, 11 месяца;\n- “Зима” для 12, 1, 2 месяца.\n\n\n```python\n# хорошо\nmount in [3, 4, 5]\n\n# плохо\nmount == 3 or mount == 4 or mount == 5\n```\n\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "name" : "task8",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 21,
+                  "length" : 70,
+                  "possible_answer" : "# TODO",
+                  "placeholder_text" : "# TODO напишите с помощью if-elif-else условие проверки скорости ветра"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "wind = int(input())\n\n# TODO напишите с помощью if-elif-else условие проверки скорости ветра\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Написать программу, которая в зависимости от характера ветра выдает сообщение о его скорости:\n- от 1 до 4 м/с - слабый (1); \n- от 5-10 м/c - умеренный (2); \n- от 11-18 м/c - сильный (3); \n- больше 19 м/c - ураганный (4).\n\n\n```python\n# хорошо\n1 <= wind <= 4\n\n# не очень\n1 <= wind and wind <= 4\n```\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "name" : "task9",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "if __name__ == \"__main__\":\n    # Write your solution here\n    pass\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "\nThis is a task description file.\nIts content will be displayed to a learner\nin the **Task Description** window.\n\nIt supports both Markdown and HTML.\nTo toggle the format, you can rename **task.md**\nto **task.html**, or vice versa.\nThe default task description format can be changed\nin **Preferences | Tools | Education**,\nbut this will not affect any existing task description files.\n\nThe following features are available in\n**task.md/task.html** which are specific to the EduTools plugin:\n\n- Hints can be added anywhere in the task text.\nType \"hint\" and press Tab.\nHints should be added to an empty line in the task text.\nIn hints you can use HTML only.\n<div class=\"hint\">Text of your hint</div>\n\n- You may need to refer your learners to a particular lesson,\ntask, or file. To achieve this, you can use the in-course links.\nSpecify the path using the `[link_text](course://lesson1/task1/file1)` format.\n\n- You can insert shortcuts in the task description.\nWhile **task.html/task.md** is open, right-click anywhere\non the **Editor** tab and choose the **Insert shortcut** option\nfrom the context menu.\nFor example: &shortcut:FileStructurePopup;.\n\n- Insert the &percnt;`IDE_NAME`&percnt; macro,\nwhich will be replaced by the actual IDE name.\nFor example, **%IDE_NAME%**.\n\n- Insert PSI elements, by using links like\n`<a href=\"psi_element://link.to.element\">element description</a>`.\nTo get such a link, right-click the class or method\nand select **Copy Reference**.\nThen press &shortcut:EditorPaste; to insert the link where appropriate.\nFor example, a <a href=\"psi_element://java.lang.String#contains\">link to the \"contains\" method</a>.",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "title" : "lesson4_Циклы",
+      "task_list" : [
+        {
+          "name" : "task1",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "if __name__ == \"__main__\":\n    # Write your solution here\n    pass\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "\nThis is a task description file.\nIts content will be displayed to a learner\nin the **Task Description** window.\n\nIt supports both Markdown and HTML.\nTo toggle the format, you can rename **task.md**\nto **task.html**, or vice versa.\nThe default task description format can be changed\nin **Preferences | Tools | Education**,\nbut this will not affect any existing task description files.\n\nThe following features are available in\n**task.md/task.html** which are specific to the EduTools plugin:\n\n- Hints can be added anywhere in the task text.\nType \"hint\" and press Tab.\nHints should be added to an empty line in the task text.\nIn hints you can use HTML only.\n<div class=\"hint\">Text of your hint</div>\n\n- You may need to refer your learners to a particular lesson,\ntask, or file. To achieve this, you can use the in-course links.\nSpecify the path using the `[link_text](course://lesson1/task1/file1)` format.\n\n- You can insert shortcuts in the task description.\nWhile **task.html/task.md** is open, right-click anywhere\non the **Editor** tab and choose the **Insert shortcut** option\nfrom the context menu.\nFor example: &shortcut:FileStructurePopup;.\n\n- Insert the &percnt;`IDE_NAME`&percnt; macro,\nwhich will be replaced by the actual IDE name.\nFor example, **%IDE_NAME%**.\n\n- Insert PSI elements, by using links like\n`<a href=\"psi_element://link.to.element\">element description</a>`.\nTo get such a link, right-click the class or method\nand select **Copy Reference**.\nThen press &shortcut:EditorPaste; to insert the link where appropriate.\nFor example, a <a href=\"psi_element://java.lang.String#contains\">link to the \"contains\" method</a>.",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "name" : "task2",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 134,
+                  "length" : 48,
+                  "possible_answer" : "if value % 2 == 0:\n        count_even += 1",
+                  "placeholder_text" : "# TODO посчитать количество четных чисел\n    ..."
+                }
+              ],
+              "is_visible" : true,
+              "text" : "list_numbers = list(range(15, 25))\n\ncount_even = 0  # количество четных чисел\n\nfor value in list_numbers:  # перебираем все числа\n    # TODO посчитать количество четных чисел\n    ...\n\nprint(count_even)\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "5\n"
+            }
+          },
+          "description_text" : "Дан список, состоящий из 10 элементов целого типа. \n\nНайти количество элементов четных по значению.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        },
+        {
+          "name" : "task3",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 35,
+                  "length" : 44,
+                  "possible_answer" : "list_numbers[4] = sum(list_numbers) / len(list_numbers)",
+                  "placeholder_text" : "# TODO посчитать среднеарифметичсекое списка"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "list_numbers = list(range(5, 17))\n\n# TODO посчитать среднеарифметичсекое списка\n\nprint(list_numbers)\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "[5, 6, 7, 8, 10.5, 10, 11, 12, 13, 14, 15, 16]\n"
+            }
+          },
+          "description_text" : "Дан список, состоящий из 12 элементов целого типа. \n\nЗаменить значение пятого элемента среднеарифметическим исходного списка.\n\n- `sum` - сумма всех элементов\n- `len` - количество элементов\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        },
+        {
+          "name" : "task4",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 40,
+                  "length" : 56,
+                  "possible_answer" : "count_even = 0  # количество четных чисел\ncount_odd = 0  # количество нечетных чисел\n\nfor value in list_:  # перебираем все числа\n    if value % 2 == 0:\n        count_even += 1\n    else:\n        count_odd += 1\n\nif count_even > count_odd:\n",
+                  "placeholder_text" : "# TODO посчитать количество четных и нечетных чисел\n    ..."
+                },
+                {
+                  "offset" : 40,
+                  "length" : 56,
+                  "possible_answer" : "# TODO посчитать количество четных и нечетных чисел\n    ...",
+                  "placeholder_text" : "...:  # TODO Сравнить количество четных и нечетных чисел"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "list_ = [3, 4, 8, 9, 6, 6, 2, 4, 3, 3]\n\n...:  # TODO Сравнить количество четных и нечетных чисел    print('Четных чисел больше')\nelse:\n    print('Нечетных чисел больше')\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "Четных чисел больше\n"
+            }
+          },
+          "description_text" : "Дан целочисленный список. \n\nОпределить каких элементов больше четных или нечетных по значению.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        },
+        {
+          "name" : "task5",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 56,
+                  "length" : 46,
+                  "possible_answer" : "list_[0]",
+                  "placeholder_text" : "...  # TODO получить значение первого элемента"
+                },
+                {
+                  "offset" : 177,
+                  "length" : 60,
+                  "possible_answer" : "if value > first_element:\n        count += 1",
+                  "placeholder_text" : "# TODO посчитать количество элементов больше первого\n    ..."
+                }
+              ],
+              "is_visible" : true,
+              "text" : "list_ = [3, 4, 8, 9, 6, 6, 2, 4, 3, 3]\n\nfirst_element = ...  # TODO получить значение первого элемента\ncount = 0\n\nfor value in list_:  # перебираем числа, все кроме первого\n    # TODO посчитать количество элементов больше первого\n    ...\n\nprint(count)\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "6\n"
+            }
+          },
+          "description_text" : "Дан список целочисленных элементов.\n\nОпределить количество элементов, значения которых больше первого элемента.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        },
+        {
+          "name" : "task6",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 6,
+                  "length" : 48,
+                  "possible_answer" : "1",
+                  "placeholder_text" : "...  # TODO заводим переменную для произведениея"
+                },
+                {
+                  "offset" : 75,
+                  "length" : 3,
+                  "possible_answer" : "10, 21",
+                  "placeholder_text" : "..."
+                },
+                {
+                  "offset" : 85,
+                  "length" : 37,
+                  "possible_answer" : "mul *= value",
+                  "placeholder_text" : "# TODO посчитать произведение\n    ..."
+                }
+              ],
+              "is_visible" : true,
+              "text" : "mul = ...  # TODO заводим переменную для произведениея\n\nfor value in range(...):\n    # TODO посчитать произведение\n    ...\n    \nprint(mul)\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            },
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "6704425728000\n"
+            }
+          },
+          "description_text" : "Подсчитать произведение целых чисел от 10 до 20 включительно.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "output"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "title" : "lesson5_homework",
+      "task_list" : [
+        {
+          "name" : "task1",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 28,
+                  "length" : 40,
+                  "possible_answer" : "((A < 45) and (B >= 45) and (C >= 45)) or \\\n    ((A >= 45) and (B < 45) and (C >= 45)) or \\\n    ((A >= 45) and (B >= 45) and (C < 45)):",
+                  "placeholder_text" : "...:  # TODO Записать логическое условие"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "A = ...\nB = ...\nC = ...\n\nif ...:  # TODO Записать логическое условие\n    print('Есть число меньше 45 и только одно')\nelse:\n    print('Числа меньше 45 нет или их несколько')\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Записать условие, которое является истинным, когда только одно из чисел А, В и С меньше 45. \n\nИногда проще просто записать все условия и не пытаться упростить их.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "name" : "task2",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [
+                {
+                  "offset" : 12,
+                  "length" : 40,
+                  "possible_answer" : "not (-10 <= A <= -1 or 2 <= A <= 15):",
+                  "placeholder_text" : "...:  # TODO Записать логическое условие"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "A = ...\n\nif ...:  # TODO Записать логическое условие\n    print(\"Число не принадлежит интервалу\")\nelse:\n    print(\"Число принадлежит интервалу\")\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Записать логические выражения, которые определяют, \nчто число А не принадлежит интервалу от -10 до -1 или интервалу от 2 до 15.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "name" : "task3",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "numbers = (3, 4, -8, 9, 6, 6, -2, 4, -3, 3)\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Дано N случайных чисел. C помощью цикла `for` найти индекс последнего отрицательного элемента.\n\nЕсли такого элемента нет, то вернуть `None`.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "name" : "task4",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "numbers = (3, 4, -8, 9, 6, 6, -2, 4, -3, 3)\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Задан кортеж, состоящий из элементов целого типа. \nЗа один проход по циклу определить индексы (местоположение) максимального и минимального элементов.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "name" : "task5",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "numbers = (3, 4, -8, 9, 6, 6, -2, 4, -3, 3)\n"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Подсчитать количество четных и нечетных элементов в заданном списке.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "title" : "lesson6_external",
+      "task_list" : [
+        {
+          "name" : "task1",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Разбить список длиной N на подсписки длиной k. \n\nНапример, список [1, 2, 3, 4, 5, 6, 7, 8] k = 3: [[1, 2, 3], [4, 5, 6], [7, 8]]\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "name" : "task2",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Сделать список скользящего среднего для окна длиной k. \n\nНапример, список [1, 2, 3, 4, 5] k = 2: [1.5, 2.5, 3.5, 4.5]\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "name" : "task3",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Дан одномерный массив числовых значений, насчитывающий N элементов. \n\nПоменять местами первую и вторую половины массива.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        },
+        {
+          "name" : "task4",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : ""
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : ""
+            }
+          },
+          "description_text" : "Определите количество перемен знаков элементов массива. \nЕсли за числом стоит ноль, но такая ситуация не считается сменой знака.\n",
+          "description_format" : "MD",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "version" : 11
+}
